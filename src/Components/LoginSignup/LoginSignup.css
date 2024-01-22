@@ -1,0 +1,101 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    width: 80%; /* Adjust to a percentage for responsiveness */
+    max-width: 450px; /* Limit maximum width for larger screens */
+    background: rgba(133, 140, 235, 0.821);
+    padding: 20px;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 20px; /* Adjusted margin for consistency */
+}
+
+.text {
+    color: blue;
+    font-size: 28px; /* Adjusted font size for better proportion */
+    font-weight: 700;
+}
+
+.underline {
+    width: 40px; /* Adjusted width for a more subtle underline */
+    height: 4px; /* Adjusted height for a more subtle underline */
+    background: rgb(59, 14, 164);
+    border-radius: 6px;
+}
+
+.inputs {
+    margin-top: 30px; /* Adjusted margin for consistency */
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Adjusted gap for a more compact layout */
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px; /* Adjusted height for a more compact input */
+    background: rgb(219, 216, 216);
+    border-radius: 60px;
+}
+
+.input img {
+    margin: 0px 15px; /* Adjusted margin for a more compact layout */
+}
+
+.input input {
+    flex: 1; /* Take remaining space */
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 16px; /* Adjusted font size for a more compact input */
+}
+
+.forgot-password {
+    padding-left: 15px; /* Adjusted padding for consistency */
+    margin-top: 15px; /* Adjusted margin for consistency */
+    color: grey;
+    font-size: 16px; /* Adjusted font size for consistency */
+}
+
+.forgot-password span {
+    color: skyblue;
+    cursor: pointer;
+}
+
+.submit-container {
+    display: flex;
+    gap: 20px; /* Adjusted gap for a more compact layout */
+    margin: 40px auto;
+}
+
+.submit {
+    flex: 1; /* Take remaining space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; /* Adjusted height for a more compact button */
+    color: white;
+    background: blue;
+    border-radius: 16px;
+    font-size: 16px; /* Adjusted font size for a more compact button */
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gray {
+    background: rgb(242, 239, 239);
+    color: rgb(83, 59, 59);
+}
